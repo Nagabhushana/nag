@@ -17,6 +17,9 @@ variables:
 steps:
 - task: NuGetToolInstaller@1
 
+- task: npm test
+   displayName: 'npm install, build, and test'
+
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
