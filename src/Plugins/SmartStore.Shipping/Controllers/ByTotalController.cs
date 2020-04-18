@@ -62,6 +62,7 @@ namespace SmartStore.Shipping.Controllers
 			}
 
             //model.AvailableCountries.Add(new SelectListItem { Text = "*", Value = "0" });
+	     //model.AvailableCountries.Add(new SelectListItem { Text = "*", Value = "0" });
             var countries = _countryService.GetAllCountries(true);
             foreach (var c in countries)
             {
