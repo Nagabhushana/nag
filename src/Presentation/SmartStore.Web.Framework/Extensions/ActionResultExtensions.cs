@@ -2,6 +2,7 @@
 using System.Web.Mvc;
 
 // use base SmartStore Namespace to ensure the extension methods are always available
+// use base SmartStore Namespace to ensure the extension methods are always available
 namespace SmartStore
 {
 	public static class ActionResultExtensions
